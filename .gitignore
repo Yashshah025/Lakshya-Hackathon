@@ -1,0 +1,23 @@
+# Built application files
+*.spec
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.idea/
+.vscode/
+
+# Ignore old backend models to prevent duplicate huge files
+backend/models/pressure_model.pkl
