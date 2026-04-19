@@ -33,7 +33,7 @@ st.markdown("""
 st.markdown("<h1 class='title-glow'>🛡️ CrowdShield: Decision Intelligence</h1>", unsafe_allow_html=True)
 st.caption("AI-Powered Temple & Pilgrimage Crowd Crush Prevention System")
 
-# Sidebar Controls
+# Sidebar Controls code
 with st.sidebar:
     st.header("🎮 Scenario Control")
     st.write("Control the flow of the real-time simulation engine.")
