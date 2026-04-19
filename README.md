@@ -1,9 +1,8 @@
 # CrowdShield: AI-Powered Stampede Window Predictor 🛡️
 ![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
-![RAG Chatbot](https://img.shields.io/badge/-RAG_Chatbot-orange)
-![Langchain](https://img.shields.io/badge/-Langchain-purple)
-![Chat Groq](https://img.shields.io/badge/LLM-Chat_Groq-green)
-![Frontend](https://img.shields.io/badge/Framework-Flask-red)
+![Machine_Learning](https://img.shields.io/badge/-XGBoost-orange)
+![Communication](https://img.shields.io/badge/-Socket.io-purple)
+![Frontend](https://img.shields.io/badge/Framework-React-red)
 
 ## Introduction:
 During Navratri, major temples like Ambaji, Dwarka, Somnath, and Pavagadh handle over 1.2 crore pilgrims. While crowd control is focused at temple gates, stampede risks actually build up earlier in narrow access corridors due to sudden inflow bursts and limited space.This project builds a real-time system that analyzes corridor flow, transport arrivals, and width constraints to compute a Crowd Pressure Index. It predicts potential crush-risk situations 8–12 minutes in advance and sends alerts through a single shared dashboard for police, temple trusts, and transport authorities.
