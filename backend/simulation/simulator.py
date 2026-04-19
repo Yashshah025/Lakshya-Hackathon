@@ -13,7 +13,7 @@ class CrowdSimulator:
         self.history = []
         self.enriched_history = []
         self.burst_active = False
-        
+    #Loading data 
     def load_data(self):
         dataset_path = self.data_path
         if not os.path.exists(dataset_path):
@@ -46,7 +46,7 @@ class CrowdSimulator:
         while self.is_running and self.current_index < len(self.df):
             row = self.df.iloc[[self.current_index]].copy()
             
-            # Injection logic for "What-if"
+            
             if self.burst_active:
                 row['vehicle_arrivals'] += 20
                 self.burst_active = False # Reset burst
@@ -63,7 +63,7 @@ class CrowdSimulator:
             
             self.current_index += 1
             time.sleep(2) # 2 seconds = 1 minute simulation time
-
+    #Replay the data
     def get_replay_data(self):
         if not self.enriched_history:
             return pd.DataFrame()
